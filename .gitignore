@@ -1,3 +1,4 @@
-.vs
-.idea
+.vs/
+.env
+.idea/
 .DS_Store
