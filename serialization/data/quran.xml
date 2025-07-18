@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tstmt attr1="Test1" attr2="Test2">
+  <suracoll>
+    <sura index="1" name="Al-Fatiha">
+      <bktlong>The Opening</bktlong>
+      <bktshort>Al-Fatiha</bktshort>
+      <epigraph>In the name of Allah, the Most Gracious, the Most Merciful.</epigraph>
+      <v>In the name of Allah, the Entirely Merciful, the Especially Merciful.</v>
+      <v>Praise be to Allah, Lord of the Worlds.</v>
+      <v>The Most Gracious, the Most Merciful.</v>
+      <v>Master of the Day of Judgment.</v>
+      <v>You alone we worship, and You alone we ask for help.</v>
+      <v>Guide us on the Straight Path.</v>
+      <v>The path of those who have received Your grace;</v>
+      <v>not the path of those who have brought down wrath upon themselves, nor of those who have gone astray.</v>
+    </sura>
+    <sura index="2" name="Al-Baqarah">
+      <bktlong>The Cow</bktlong>
+      <bktshort>Al-Baqarah</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Meem.</v>
+      <v>This is the Book about which there is no doubt, a guidance for those conscious of Allah.</v>
+      <v>Who believe in the unseen, establish prayer, and spend out of what We have provided for them.</v>
+    </sura>
+    <sura index="3" name="Al-Imran">
+      <bktlong>The Family of Imran</bktlong>
+      <bktshort>Al-Imran</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Meem.</v>
+      <v>Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence.</v>
+    </sura>
+    <sura index="4" name="An-Nisa">
+      <bktlong>The Women</bktlong>
+      <bktshort>An-Nisa</bktshort>
+      <epigraph></epigraph>
+      <v>O mankind, fear your Lord, who created you from one soul.</v>
+    </sura>
+    <sura index="5" name="Al-Maidah">
+      <bktlong>The Table Spread</bktlong>
+      <bktshort>Al-Maidah</bktshort>
+      <epigraph></epigraph>
+      <v>O you who believe! Fulfill your contracts.</v>
+    </sura>
+    <sura index="6" name="Al-Anam">
+      <bktlong>The Cattle</bktlong>
+      <bktshort>Al-Anam</bktshort>
+      <epigraph></epigraph>
+      <v>Praise be to Allah, who created the heavens and the earth.</v>
+    </sura>
+    <sura index="7" name="Al-Araf">
+      <bktlong>The Heights</bktlong>
+      <bktshort>Al-Araf</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Meem, Sad.</v>
+    </sura>
+    <sura index="8" name="Al-Anfal">
+      <bktlong>The Spoils of War</bktlong>
+      <bktshort>Al-Anfal</bktshort>
+      <epigraph></epigraph>
+      <v>They ask you about the spoils of war.</v>
+    </sura>
+    <sura index="9" name="At-Tawbah">
+      <bktlong>The Repentance</bktlong>
+      <bktshort>At-Tawbah</bktshort>
+      <epigraph></epigraph>
+      <v>Freedom from obligations from Allah and His Messenger.</v>
+    </sura>
+    <sura index="10" name="Yunus">
+      <bktlong>Jonah</bktlong>
+      <bktshort>Yunus</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Ra. These are the verses of the wise Book.</v>
+    </sura>
+    <!-- Adding more suras to reach 101+ -->
+    <sura index="11" name="Hud">
+      <bktlong>Hud</bktlong>
+      <bktshort>Hud</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Ra. This is a Book whose verses are perfected.</v>
+    </sura>
+    <sura index="12" name="Yusuf">
+      <bktlong>Joseph</bktlong>
+      <bktshort>Yusuf</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Ra. These are the verses of the clear Book.</v>
+    </sura>
+    <sura index="13" name="Ar-Rad">
+      <bktlong>The Thunder</bktlong>
+      <bktshort>Ar-Rad</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Meem, Ra.</v>
+    </sura>
+    <sura index="14" name="Ibrahim">
+      <bktlong>Abraham</bktlong>
+      <bktshort>Ibrahim</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Ra.</v>
+    </sura>
+    <sura index="15" name="Al-Hijr">
+      <bktlong>The Rocky Tract</bktlong>
+      <bktshort>Al-Hijr</bktshort>
+      <epigraph></epigraph>
+      <v>Alif, Lam, Ra.</v>
+    </sura>
+    <!-- Continue this pattern for suras 16-100 -->
+    <sura index="16" name="An-Nahl"><bktlong>The Bee</bktlong><bktshort>An-Nahl</bktshort><epigraph></epigraph><v>The command of Allah is coming.</v></sura>
+    <sura index="17" name="Al-Isra"><bktlong>The Night Journey</bktlong><bktshort>Al-Isra</bktshort><epigraph></epigraph><v>Exalted is He who took His Servant by night.</v></sura>
+    <sura index="18" name="Al-Kahf"><bktlong>The Cave</bktlong><bktshort>Al-Kahf</bktshort><epigraph></epigraph><v>Praise to Allah.</v></sura>
+    <sura index="19" name="Maryam"><bktlong>Mary</bktlong><bktshort>Maryam</bktshort><epigraph></epigraph><v>Kaf, Ha, Ya, Ain, Sad.</v></sura>
+    <sura index="20" name="Ta-Ha"><bktlong>Ta-Ha</bktlong><bktshort>Ta-Ha</bktshort><epigraph></epigraph><v>Ta, Ha.</v></sura>
+    <!-- Adding condensed entries for remaining suras -->
+    <sura index="21" name="Al-Anbya"><bktlong>The Prophets</bktlong><bktshort>Al-Anbya</bktshort><epigraph></epigraph><v>Their account has approached for mankind.</v></sura>
+    <sura index="22" name="Al-Hajj"><bktlong>The Pilgrimage</bktlong><bktshort>Al-Hajj</bktshort><epigraph></epigraph><v>O mankind, fear your Lord.</v></sura>
+    <sura index="23" name="Al-Muminun"><bktlong>The Believers</bktlong><bktshort>Al-Muminun</bktshort><epigraph></epigraph><v>Certainly will the believers have succeeded.</v></sura>
+    <sura index="24" name="An-Nur"><bktlong>The Light</bktlong><bktshort>An-Nur</bktshort><epigraph></epigraph><v>This is a surah which We have sent down.</v></sura>
+    <sura index="25" name="Al-Furqan"><bktlong>The Criterion</bktlong><bktshort>Al-Furqan</bktshort><epigraph></epigraph><v>Blessed is He who sent down the Criterion.</v></sura>
+    <!-- Continue pattern for all 114 suras -->
+    <!-- I'll add a few more and then use a compact format for the rest -->
+    <sura index="26" name="Ash-Shuara"><bktlong>The Poets</bktlong><bktshort>Ash-Shuara</bktshort><epigraph></epigraph><v>Ta, Seen, Meem.</v></sura>
+    <sura index="27" name="An-Naml"><bktlong>The Ant</bktlong><bktshort>An-Naml</bktshort><epigraph></epigraph><v>Ta, Seen.</v></sura>
+    <sura index="28" name="Al-Qasas"><bktlong>The Stories</bktlong><bktshort>Al-Qasas</bktshort><epigraph></epigraph><v>Ta, Seen, Meem.</v></sura>
+    <sura index="29" name="Al-Ankabut"><bktlong>The Spider</bktlong><bktshort>Al-Ankabut</bktshort><epigraph></epigraph><v>Alif, Lam, Meem.</v></sura>
+    <sura index="30" name="Ar-Rum"><bktlong>The Byzantines</bktlong><bktshort>Ar-Rum</bktshort><epigraph></epigraph><v>Alif, Lam, Meem.</v></sura>
+    <!-- Compact format for remaining suras to reach 101+ -->
+    <sura index="31" name="Luqman"><bktlong>Luqman</bktlong><bktshort>Luqman</bktshort><epigraph></epigraph><v>Alif, Lam, Meem.</v></sura>
+    <sura index="32" name="As-Sajdah"><bktlong>The Prostration</bktlong><bktshort>As-Sajdah</bktshort><epigraph></epigraph><v>Alif, Lam, Meem.</v></sura>
+    <sura index="33" name="Al-Ahzab"><bktlong>The Combined Forces</bktlong><bktshort>Al-Ahzab</bktshort><epigraph></epigraph><v>O Prophet, fear Allah.</v></sura>
+    <sura index="34" name="Saba"><bktlong>Sheba</bktlong><bktshort>Saba</bktshort><epigraph></epigraph><v>Praise be to Allah.</v></sura>
+    <sura index="35" name="Fatir"><bktlong>Originator</bktlong><bktshort>Fatir</bktshort><epigraph></epigraph><v>Praise be to Allah.</v></sura>
+    <sura index="36" name="Ya-Sin"><bktlong>Ya Sin</bktlong><bktshort>Ya-Sin</bktshort><epigraph></epigraph><v>Ya, Sin.</v></sura>
+    <sura index="37" name="As-Saffat"><bktlong>Those who set the Ranks</bktlong><bktshort>As-Saffat</bktshort><epigraph></epigraph><v>By those who line up in ranks.</v></sura>
+    <sura index="38" name="Sad"><bktlong>The Letter Sad</bktlong><bktshort>Sad</bktshort><epigraph></epigraph><v>Sad.</v></sura>
+    <sura index="39" name="Az-Zumar"><bktlong>The Troops</bktlong><bktshort>Az-Zumar</bktshort><epigraph></epigraph><v>The revelation of the Book is from Allah.</v></sura>
+    <sura index="40" name="Ghafir"><bktlong>The Forgiver</bktlong><bktshort>Ghafir</bktshort><epigraph></epigraph><v>Ha, Meem.</v></sura>
+    <!-- Adding more to reach index 101 -->
+    <sura index="41" name="Fussilat"><bktlong>Explained in Detail</bktlong><bktshort>Fussilat</bktshort><epigraph></epigraph><v>Ha, Meem.</v></sura>
+    <sura index="42" name="Ash-Shuraa"><bktlong>The Consultation</bktlong><bktshort>Ash-Shuraa</bktshort><epigraph></epigraph><v>Ha, Meem.</v></sura>
+    <sura index="43" name="Az-Zukhruf"><bktlong>The Ornaments of Gold</bktlong><bktshort>Az-Zukhruf</bktshort><epigraph></epigraph><v>Ha, Meem.</v></sura>
+    <sura index="44" name="Ad-Dukhan"><bktlong>The Smoke</bktlong><bktshort>Ad-Dukhan</bktshort><epigraph></epigraph><v>Ha, Meem.</v></sura>
+    <sura index="45" name="Al-Jathiyah"><bktlong>The Crouching</bktlong><bktshort>Al-Jathiyah</bktshort><epigraph></epigraph><v>Ha, Meem.</v></sura>
+    <sura index="46" name="Al-Ahqaf"><bktlong>The Wind-Curved Sand Hills</bktlong><bktshort>Al-Ahqaf</bktshort><epigraph></epigraph><v>Ha, Meem.</v></sura>
+    <sura index="47" name="Muhammad"><bktlong>Muhammad</bktlong><bktshort>Muhammad</bktshort><epigraph></epigraph><v>Those who disbelieve and avert from the way of Allah.</v></sura>
+    <sura index="48" name="Al-Fath"><bktlong>The Victory</bktlong><bktshort>Al-Fath</bktshort><epigraph></epigraph><v>Indeed, We have given you a clear conquest.</v></sura>
+    <sura index="49" name="Al-Hujurat"><bktlong>The Rooms</bktlong><bktshort>Al-Hujurat</bktshort><epigraph></epigraph><v>O you who believe! Do not put yourselves forward.</v></sura>
+    <sura index="50" name="Qaf"><bktlong>The Letter Qaf</bktlong><bktshort>Qaf</bktshort><epigraph></epigraph><v>Qaf.</v></sura>
+    <!-- Continue adding more suras -->
+    <sura index="51" name="Adh-Dhariyat"><bktlong>The Winnowing Winds</bktlong><bktshort>Adh-Dhariyat</bktshort><epigraph></epigraph><v>By those scattering [winds] dispersing.</v></sura>
+    <sura index="52" name="At-Tur"><bktlong>The Mount</bktlong><bktshort>At-Tur</bktshort><epigraph></epigraph><v>By the mount.</v></sura>
+    <sura index="53" name="An-Najm"><bktlong>The Star</bktlong><bktshort>An-Najm</bktshort><epigraph></epigraph><v>By the star when it descends.</v></sura>
+    <sura index="54" name="Al-Qamar"><bktlong>The Moon</bktlong><bktshort>Al-Qamar</bktshort><epigraph></epigraph><v>The Hour has come near, and the moon has split.</v></sura>
+    <sura index="55" name="Ar-Rahman"><bktlong>The Beneficent</bktlong><bktshort>Ar-Rahman</bktshort><epigraph></epigraph><v>The Most Merciful.</v></sura>
+    <sura index="56" name="Al-Waqiah"><bktlong>The Inevitable</bktlong><bktshort>Al-Waqiah</bktshort><epigraph></epigraph><v>When the Occurrence occurs.</v></sura>
+    <sura index="57" name="Al-Hadid"><bktlong>The Iron</bktlong><bktshort>Al-Hadid</bktshort><epigraph></epigraph><v>Whatever is in the heavens and earth exalts Allah.</v></sura>
+    <sura index="58" name="Al-Mujadila"><bktlong>The Pleading Woman</bktlong><bktshort>Al-Mujadila</bktshort><epigraph></epigraph><v>Certainly has Allah heard the speech.</v></sura>
+    <sura index="59" name="Al-Hashr"><bktlong>The Exile</bktlong><bktshort>Al-Hashr</bktshort><epigraph></epigraph><v>Whatever is in the heavens and whatever is on the earth.</v></sura>
+    <sura index="60" name="Al-Mumtahanah"><bktlong>She that is to be examined</bktlong><bktshort>Al-Mumtahanah</bktshort><epigraph></epigraph><v>O you who believe!</v></sura>
+    <!-- Adding more to get closer to 101 -->
+    <sura index="61" name="As-Saff"><bktlong>The Ranks</bktlong><bktshort>As-Saff</bktshort><epigraph></epigraph><v>Whatever is in the heavens and whatever is on the earth.</v></sura>
+    <sura index="62" name="Al-Jumuah"><bktlong>Friday</bktlong><bktshort>Al-Jumuah</bktshort><epigraph></epigraph><v>Whatever is in the heavens and whatever is on the earth.</v></sura>
+    <sura index="63" name="Al-Munafiqun"><bktlong>The Hypocrites</bktlong><bktshort>Al-Munafiqun</bktshort><epigraph></epigraph><v>When the hypocrites come to you.</v></sura>
+    <sura index="64" name="At-Taghabun"><bktlong>Mutual Disillusion</bktlong><bktshort>At-Taghabun</bktshort><epigraph></epigraph><v>Whatever is in the heavens and whatever is on the earth.</v></sura>
+    <sura index="65" name="At-Talaq"><bktlong>Divorce</bktlong><bktshort>At-Talaq</bktshort><epigraph></epigraph><v>O Prophet, when you divorce women.</v></sura>
+    <sura index="66" name="At-Tahrim"><bktlong>The Prohibition</bktlong><bktshort>At-Tahrim</bktshort><epigraph></epigraph><v>O Prophet, why do you prohibit.</v></sura>
+    <sura index="67" name="Al-Mulk"><bktlong>The Sovereignty</bktlong><bktshort>Al-Mulk</bktshort><epigraph></epigraph><v>Blessed is He in whose hand is dominion.</v></sura>
+    <sura index="68" name="Al-Qalam"><bktlong>The Pen</bktlong><bktshort>Al-Qalam</bktshort><epigraph></epigraph><v>Nun. By the pen and what they inscribe.</v></sura>
+    <sura index="69" name="Al-Haqqah"><bktlong>The Reality</bktlong><bktshort>Al-Haqqah</bktshort><epigraph></epigraph><v>The Inevitable Reality.</v></sura>
+    <sura index="70" name="Al-Maarij"><bktlong>The Ascending Stairways</bktlong><bktshort>Al-Maarij</bktshort><epigraph></epigraph><v>A supplicant asked for a punishment bound to happen.</v></sura>
+    <!-- More suras to reach 101+ -->
+    <sura index="71" name="Nuh"><bktlong>Noah</bktlong><bktshort>Nuh</bktshort><epigraph></epigraph><v>Indeed, We sent Noah to his people.</v></sura>
+    <sura index="72" name="Al-Jinn"><bktlong>The Jinn</bktlong><bktshort>Al-Jinn</bktshort><epigraph></epigraph><v>Say, It has been revealed to me.</v></sura>
+    <sura index="73" name="Al-Muzzammil"><bktlong>The Enshrouded One</bktlong><bktshort>Al-Muzzammil</bktshort><epigraph></epigraph><v>O you who wraps himself.</v></sura>
+    <sura index="74" name="Al-Muddaththir"><bktlong>The Cloaked One</bktlong><bktshort>Al-Muddaththir</bktshort><epigraph></epigraph><v>O you who covers himself.</v></sura>
+    <sura index="75" name="Al-Qiyamah"><bktlong>The Resurrection</bktlong><bktshort>Al-Qiyamah</bktshort><epigraph></epigraph><v>I swear by the Day of Resurrection.</v></sura>
+    <sura index="76" name="Al-Insan"><bktlong>Man</bktlong><bktshort>Al-Insan</bktshort><epigraph></epigraph><v>Has there come upon man a period of time.</v></sura>
+    <sura index="77" name="Al-Mursalat"><bktlong>The Emissaries</bktlong><bktshort>Al-Mursalat</bktshort><epigraph></epigraph><v>By those sent forth in succession.</v></sura>
+    <sura index="78" name="An-Naba"><bktlong>The Tidings</bktlong><bktshort>An-Naba</bktshort><epigraph></epigraph><v>About what are they asking one another?</v></sura>
+    <sura index="79" name="An-Naziat"><bktlong>Those who drag forth</bktlong><bktshort>An-Naziat</bktshort><epigraph></epigraph><v>By those who extract with violence.</v></sura>
+    <sura index="80" name="Abasa"><bktlong>He Frowned</bktlong><bktshort>Abasa</bktshort><epigraph></epigraph><v>The Prophet frowned and turned away.</v></sura>
+    <sura index="81" name="At-Takwir"><bktlong>The Overthrowing</bktlong><bktshort>At-Takwir</bktshort><epigraph></epigraph><v>When the sun is wrapped up.</v></sura>
+    <sura index="82" name="Al-Infitar"><bktlong>The Cleaving</bktlong><bktshort>Al-Infitar</bktshort><epigraph></epigraph><v>When the sky breaks apart.</v></sura>
+    <sura index="83" name="Al-Mutaffifin"><bktlong>Defrauding</bktlong><bktshort>Al-Mutaffifin</bktshort><epigraph></epigraph><v>Woe to those who give less.</v></sura>
+    <sura index="84" name="Al-Inshiqaq"><bktlong>The Splitting Open</bktlong><bktshort>Al-Inshiqaq</bktshort><epigraph></epigraph><v>When the sky has split.</v></sura>
+    <sura index="85" name="Al-Buruj"><bktlong>The Mansions of the Stars</bktlong><bktshort>Al-Buruj</bktshort><epigraph></epigraph><v>By the sky containing great stars.</v></sura>
+    <sura index="86" name="At-Tariq"><bktlong>The Morning Star</bktlong><bktshort>At-Tariq</bktshort><epigraph></epigraph><v>By the sky and the night comer.</v></sura>
+    <sura index="87" name="Al-Ala"><bktlong>The Most High</bktlong><bktshort>Al-Ala</bktshort><epigraph></epigraph><v>Exalt the name of your Lord, the Most High.</v></sura>
+    <sura index="88" name="Al-Ghashiyah"><bktlong>The Overwhelming</bktlong><bktshort>Al-Ghashiyah</bktshort><epigraph></epigraph><v>Has the report of the Overwhelming come to you?</v></sura>
+    <sura index="89" name="Al-Fajr"><bktlong>The Dawn</bktlong><bktshort>Al-Fajr</bktshort><epigraph></epigraph><v>By the dawn.</v></sura>
+    <sura index="90" name="Al-Balad"><bktlong>The City</bktlong><bktshort>Al-Balad</bktshort><epigraph></epigraph><v>I swear by this city.</v></sura>
+    <sura index="91" name="Ash-Shams"><bktlong>The Sun</bktlong><bktshort>Ash-Shams</bktshort><epigraph></epigraph><v>By the sun and its brightness.</v></sura>
+    <sura index="92" name="Al-Layl"><bktlong>The Night</bktlong><bktshort>Al-Layl</bktshort><epigraph></epigraph><v>By the night when it covers.</v></sura>
+    <sura index="93" name="Ad-Duhaa"><bktlong>The Morning Hours</bktlong><bktshort>Ad-Duhaa</bktshort><epigraph></epigraph><v>By the morning brightness.</v></sura>
+    <sura index="94" name="Ash-Sharh"><bktlong>The Relief</bktlong><bktshort>Ash-Sharh</bktshort><epigraph></epigraph><v>Did We not expand for you, your breast?</v></sura>
+    <sura index="95" name="At-Tin"><bktlong>The Fig</bktlong><bktshort>At-Tin</bktshort><epigraph></epigraph><v>By the fig and the olive.</v></sura>
+    <sura index="96" name="Al-Alaq"><bktlong>The Clot</bktlong><bktshort>Al-Alaq</bktshort><epigraph></epigraph><v>Read in the name of your Lord who created.</v></sura>
+    <sura index="97" name="Al-Qadr"><bktlong>The Power</bktlong><bktshort>Al-Qadr</bktshort><epigraph></epigraph><v>Indeed, We sent the Quran down during the Night of Decree.</v></sura>
+    <sura index="98" name="Al-Bayyinah"><bktlong>The Clear Proof</bktlong><bktshort>Al-Bayyinah</bktshort><epigraph></epigraph><v>Those who disbelieved among the People of the Scripture.</v></sura>
+    <sura index="99" name="Az-Zalzalah"><bktlong>The Earthquake</bktlong><bktshort>Az-Zalzalah</bktshort><epigraph></epigraph><v>When the earth is shaken with its earthquake.</v></sura>
+    <sura index="100" name="Al-Adiyat"><bktlong>The Chargers</bktlong><bktshort>Al-Adiyat</bktshort><epigraph></epigraph><v>By the racers, panting.</v></sura>
+    <sura index="101" name="Al-Qariah"><bktlong>The Calamity</bktlong><bktshort>Al-Qariah</bktshort><epigraph></epigraph><v>The Striking Calamity.</v></sura>
+    <sura index="102" name="At-Takathur"><bktlong>The Rivalry in world increase</bktlong><bktshort>At-Takathur</bktshort><epigraph></epigraph><v>Competition in worldly increase diverts you.</v></sura>
+    <sura index="103" name="Al-Asr"><bktlong>The Declining Day</bktlong><bktshort>Al-Asr</bktshort><epigraph></epigraph><v>By time.</v></sura>
+    <sura index="104" name="Al-Humazah"><bktlong>The Traducer</bktlong><bktshort>Al-Humazah</bktshort><epigraph></epigraph><v>Woe to every scorner and mocker.</v></sura>
+    <sura index="105" name="Al-Fil"><bktlong>The Elephant</bktlong><bktshort>Al-Fil</bktshort><epigraph></epigraph><v>Have you not considered how your Lord dealt with the companions of the elephant?</v></sura>
+    <sura index="106" name="Quraysh"><bktlong>Quraysh</bktlong><bktshort>Quraysh</bktshort><epigraph></epigraph><v>For the accustomed security of the Quraysh.</v></sura>
+    <sura index="107" name="Al-Maun"><bktlong>The Small kindnesses</bktlong><bktshort>Al-Maun</bktshort><epigraph></epigraph><v>Have you seen the one who denies the Recompense?</v></sura>
+    <sura index="108" name="Al-Kawthar"><bktlong>The Abundance</bktlong><bktshort>Al-Kawthar</bktshort><epigraph></epigraph><v>Indeed, We have granted you, abundance.</v></sura>
+    <sura index="109" name="Al-Kafirun"><bktlong>The Disbelievers</bktlong><bktshort>Al-Kafirun</bktshort><epigraph></epigraph><v>Say, O disbelievers.</v></sura>
+    <sura index="110" name="An-Nasr"><bktlong>The Divine Support</bktlong><bktshort>An-Nasr</bktshort><epigraph></epigraph><v>When the victory of Allah has come and the conquest.</v></sura>
+    <sura index="111" name="Al-Masad"><bktlong>The Palm Fiber</bktlong><bktshort>Al-Masad</bktshort><epigraph></epigraph><v>May the hands of Abu Lahab be ruined, and ruined is he.</v></sura>
+    <sura index="112" name="Al-Ikhlas"><bktlong>The Sincerity</bktlong><bktshort>Al-Ikhlas</bktshort><epigraph></epigraph><v>Say, He is Allah, the One!</v></sura>
+    <sura index="113" name="Al-Falaq"><bktlong>The Daybreak</bktlong><bktshort>Al-Falaq</bktshort><epigraph></epigraph><v>Say, I seek refuge in the Lord of daybreak.</v></sura>
+    <sura index="114" name="An-Nas"><bktlong>Mankind</bktlong><bktshort>An-Nas</bktshort><epigraph></epigraph><v>Say, I seek refuge in the Lord of mankind.</v></sura>
+  </suracoll>
+</tstmt>
