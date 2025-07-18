@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tstmt attr1="Test1" attr2="Test2">
+  <coverpg>
+    <title>Quran</title>
+  </coverpg>
   <suracoll>
     <sura index="1" name="Al-Fatiha">
       <bktlong>The Opening</bktlong>
