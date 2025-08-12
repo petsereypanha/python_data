@@ -2,3 +2,5 @@
 .env
 .idea/
 .DS_Store
+matplotlib/data/tem2.csv
+matplotlib/data/tem1.csv
