@@ -30,6 +30,295 @@ This is a comprehensive Python learning project featuring interactive Jupyter no
 
 ## Project Structure
 
+## Introduction
+
+Data Science combines programming, statistics, and domain expertise to extract insights from data. Python is one of the most popular languages for data science due to its simplicity, extensive libraries, and strong community support.
+
+### Why Python for Data Science?
+- **Easy to learn**: Simple, readable syntax
+- **Extensive libraries**: NumPy, Pandas, Matplotlib, Scikit-learn, etc.
+- **Community support**: Large community with extensive documentation
+- **Versatility**: Can handle data collection, processing, analysis, and deployment
+
+## Setting Up Your Environment
+
+### 1. Install Python and Package Manager
+
+```bash
+# Install Anaconda (recommended for data science)
+# Download from: https://www.anaconda.com/products/distribution
+
+# Or install Miniconda for a lighter setup
+# Download from: https://docs.conda.io/en/latest/miniconda.html
+
+# Verify installation
+python --version
+conda --version
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+# Create a new environment
+conda create -n datascience python=3.9
+
+# Activate the environment
+conda activate datascience
+
+# Install essential packages
+conda install numpy pandas matplotlib seaborn scikit-learn jupyter
+```
+
+### 3. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+# or
+jupyter lab
+```
+
+## Python Basics for Data Science
+
+### 1. Data Types and Structures
+
+```python
+# Basic data types
+integer_var = 42
+float_var = 3.14
+string_var = "Hello, Data Science!"
+boolean_var = True
+
+# Lists (ordered, mutable)
+numbers = [1, 2, 3, 4, 5]
+mixed_list = [1, "hello", 3.14, True]
+
+# Dictionaries (key-value pairs)
+student = {
+    "name": "Alice",
+    "age": 25,
+    "grades": [85, 90, 88]
+}
+
+# Tuples (ordered, immutable)
+coordinates = (10.5, 20.3)
+```
+
+### 2. Control Structures
+
+```python
+# If statements
+score = 85
+if score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+else:
+    grade = "C"
+
+# Loops
+# For loop
+for i in range(5):
+    print(f"Iteration {i}")
+
+# While loop
+count = 0
+while count < 5:
+    print(f"Count: {count}")
+    count += 1
+
+# List comprehension (powerful for data processing)
+squares = [x**2 for x in range(10)]
+even_squares = [x**2 for x in range(10) if x % 2 == 0]
+```
+
+### 3. Functions
+
+```python
+
+def my_function(*args, **kwargs):
+    print("Args: {}".format(args))
+    print("Kwargs: {}".format(kwargs))
+# Usage
+my_function(2, 'a', hello=True, goodbye=None)
+```
+
+## Essential Libraries
+
+### 1. NumPy - Numerical Computing
+
+```python
+import numpy as np
+
+# Creating arrays
+arr = np.array([1, 2, 3, 4, 5])
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+
+# Array operations
+arr_squared = arr ** 2
+matrix_sum = matrix.sum()
+matrix_mean = matrix.mean()
+
+# Mathematical functions
+angles = np.array([0, np.pi/2, np.pi])
+sin_values = np.sin(angles)
+
+# Random number generation
+random_data = np.random.normal(0, 1, 1000)  # Normal distribution
+```
+
+### 2. Pandas - Data Manipulation
+
+```python
+import pandas as pd
+
+df = pd.read_csv('data/bestsellers.csv')
+df.plot(kind='scatter', x='Reviews', y='Price');
+df.plot(kind='scatter',
+        x='Reviews',
+        y='Price',
+        color='orange',
+        title='Reviews vs. Price',
+        figsize=(12, 6))
+```
+
+### 3. Matplotlib - Basic Plotting
+
+```python
+import matplotlib.pyplot as plt
+
+# Line plot
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.figure(figsize=(10, 6))
+plt.plot(x, y)
+plt.title('Sine Wave')
+plt.xlabel('x')
+plt.ylabel('sin(x)')
+plt.grid(True)
+plt.show()
+
+# Bar plot
+categories = ['A', 'B', 'C', 'D']
+values = [23, 45, 56, 78]
+
+plt.figure(figsize=(8, 6))
+plt.bar(categories, values)
+plt.title('Bar Chart Example')
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.show()
+```
+
+## Data Manipulation with Pandas
+
+### 1. Data Loading and Exploration
+
+```python
+# Load sample data (create sample dataset)
+np.random.seed(42)
+data = {
+    'Date': pd.date_range('2023-01-01', periods=100),
+    'Sales': np.random.normal(1000, 200, 100),
+    'Region': np.random.choice(['North', 'South', 'East', 'West'], 100),
+    'Product': np.random.choice(['A', 'B', 'C'], 100)
+}
+sales_df = pd.DataFrame(data)
+
+# Basic exploration
+print("Shape:", sales_df.shape)
+print("\nColumn names:", sales_df.columns.tolist())
+print("\nData types:\n", sales_df.dtypes)
+print("\nFirst 5 rows:\n", sales_df.head())
+print("\nMissing values:\n", sales_df.isnull().sum())
+```
+
+### 2. Data Filtering and Selection
+
+```python
+# Select columns
+sales_only = sales_df['Sales']
+sales_and_region = sales_df[['Sales', 'Region']]
+
+# Filter rows
+high_sales = sales_df[sales_df['Sales'] > 1200]
+north_region = sales_df[sales_df['Region'] == 'North']
+
+# Multiple conditions
+high_sales_north = sales_df[(sales_df['Sales'] > 1200) & (sales_df['Region'] == 'North')]
+```
+
+### 3. Data Aggregation and Grouping
+
+```python
+# Group by operations
+region_stats = sales_df.groupby('Region')['Sales'].agg(['mean', 'sum', 'count'])
+product_sales = sales_df.groupby('Product')['Sales'].mean()
+
+# Multiple grouping
+region_product_stats = sales_df.groupby(['Region', 'Product'])['Sales'].mean()
+
+# Pivot tables
+pivot_table = sales_df.pivot_table(
+    values='Sales',
+    index='Region',
+    columns='Product',
+    aggfunc='mean'
+)
+```
+
+### 4. Data Cleaning
+
+```python
+# Handle missing values
+# sales_df.dropna()  # Remove rows with missing values
+# sales_df.fillna(sales_df['Sales'].mean())  # Fill with mean
+
+# Remove duplicates
+sales_df_clean = sales_df.drop_duplicates()
+
+# Data type conversion
+sales_df['Date'] = pd.to_datetime(sales_df['Date'])
+
+# Create new columns
+sales_df['Month'] = sales_df['Date'].dt.month
+sales_df['Sales_Category'] = sales_df['Sales'].apply(
+    lambda x: 'High' if x > 1200 else 'Medium' if x > 800 else 'Low'
+)
+```
+
+## Data Visualization
+
+### 1. Seaborn - Statistical Plotting
+
+```python
+import seaborn as sns
+
+# Set style
+sns.set_style("whitegrid")
+
+# Distribution plots
+plt.figure(figsize=(12, 8))
+
+plt.subplot(2, 2, 1)
+sns.histplot(sales_df['Sales'], bins=20)
+plt.title('Sales Distribution')
+
+plt.subplot(2, 2, 2)
+sns.boxplot(data=sales_df, x='Region', y='Sales')
+plt.title('Sales by Region')
+
+plt.subplot(2, 2, 3)
+sns.scatterplot(data=sales_df, x='Date', y='Sales', hue='Region')
+plt.title('Sales Over Time by Region')
+
+plt.subplot(2, 2, 4)
+correlation_matrix = sales_df.select_dtypes(include=[np.number]).corr()
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.title('Correlation Matrix')
+
+plt.tight_layout()
+plt.show()
 ```
 ine/
 ├── README.md                           # Project documentation
