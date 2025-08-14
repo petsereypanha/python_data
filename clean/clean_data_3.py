@@ -2,10 +2,12 @@ import pandas as pd
 import re
 from pathlib import Path
 
-file_path = Path('/Users/sereypanha/Documents/CodeStudy/Data_Science/ine/clean/financials.csv')
-output_path = file_path.parent / 'financials_cleaned.csv'
+file_path = Path('/Users/sereypanha/Documents/CodeStudy/Data_Science/ine/clean/inv_sep.csv')
+output_path = file_path.parent / 'inv_sep_cleaned.csv'
 
 cleaned_lines = []
+data = []
+header_found = False
 
 with open(file_path, 'r') as f:
     for line in f:
@@ -13,28 +15,22 @@ with open(file_path, 'r') as f:
         if not line:
             continue
 
-        # If the line does not contain a comma, it's space-delimited
-        if ',' not in line:
-            # Replace 2 or more spaces with a single comma
-            cleaned_line = re.sub(r'\s{2,}', ',', line)
-            cleaned_lines.append(cleaned_line)
-        else:
-            # Otherwise, it's already comma-separated, so add it as is
-            cleaned_lines.append(line)
+        if not header_found and ('cid' in line and 'invoice_date' in line and 'bill_ctry' in line):
+            header_found = True
+            if ',' in line:
+                header = [h.strip() for h in line.split(',')]
+            else:
+                clean_header_line = re.sub(r',', ' ', line)
+                clean_header_line = re.sub(r'\s{2,}', ' ', clean_header_line)
+                header = clean_header_line.strip().split(' ')
+            continue
 
-# Check if we have data
-if not cleaned_lines:
-    raise ValueError("File is empty or has no valid data")
+        if header_found:
+            num_columns = len(header)
+            row = line.split(None, num_columns - 1)
 
-# Parse header from first line
-header = cleaned_lines[0].split(',')
-print(f"Header: {header}")
-
-# Parse data from remaining lines
-data = []
-for line in cleaned_lines[1:]:
-    row = line.split(',')
-    data.append(row)
+            if len(row) == num_columns:
+                data.append(row)
 
 # Create DataFrame and save
 df = pd.DataFrame(data, columns=header)
