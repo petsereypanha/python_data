@@ -152,7 +152,8 @@ random_data = np.random.normal(0, 1, 1000)  # Normal distribution
 
 ```python
 import pandas as pd
-df = pd.read_csv('pandas/data/bestsellers.csv')
+
+df = pd.read_csv('data/bestsellers.csv')
 df.plot(kind='scatter', x='Reviews', y='Price');
 df.plot(kind='scatter',
         x='Reviews',
