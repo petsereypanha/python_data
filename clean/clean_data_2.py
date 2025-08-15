@@ -2,10 +2,10 @@ import pandas as pd
 import re
 from pathlib import Path
 
-file_path = Path('/Users/sereypanha/Documents/CodeStudy/Data_Science/ine/clean/financials.csv')
+file_path = Path('/Users/sereypanha/Documents/CodeStudy/Data_Science/ine/clean/pop_19.csv')
 
 # Define output path in the same directory as the script
-output_path = file_path.parent / 'financials_cleaned.csv'
+output_path = file_path.parent / 'pop_19.csv'
 
 data = []
 header = []
